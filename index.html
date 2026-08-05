@@ -16,45 +16,45 @@
 <nav>
 
 <div class="logo">
-Nahid Hasan
+ₙₐₕᵢd ₕₐₛₐₙ
 </div>
 
-<ul>
+<ul><ul id="nav-links"></ul>
 
-<li><a href="#">Home</a></li>
-
+<li><a href="#home">Home</a></li>
 <li><a href="#about">About</a></li>
-
-<li><a href="#">Gallery</a></li>
-
-<li><a href="#">Albums</a></li>
-
-<li><a href="#">Contact</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#albums">Albums</a></li>
+<li><a href="#contact">Contact</a></li>
 
 </ul>
 
+<div class="menu-toggle">
+    ☰
+</div>
+
+<button id="theme-toggle">🌙</button>
+
 </nav>
 
-<section class="hero">
+<section id="home" class="hero">
 
 <div class="overlay"></div>
 
 <div class="hero-content">
 
-<h1>Capturing Moments</h1>
+<h1>𝓒𝓪𝓹𝓽𝓾𝓻𝓲𝓷𝓰 𝓜𝓸𝓶𝓮𝓷𝓽𝓼</h1>
 
-<h2>Creating Stories</h2>
+<h2>𝘾𝙧𝙚𝙖𝙩𝙞𝙣𝙜 𝙎𝙩𝙤𝙧𝙞𝙚𝙨</h2>
 
 <p>
 
-Professional Photography Portfolio
+ρяσƒєѕѕισηαℓ ρнσтσgяαρну ρσятƒσℓισ
 
 </p>
 
-<a href="#" class="btn">
-
+<a href="#gallery" class="btn">
 View Gallery
-
 </a>
 
 </div>
@@ -65,7 +65,7 @@ View Gallery
 
 <h2>
 
-About Me
+𝓪𝓫𝓸𝓾𝓽 𝓶𝓮
 
 </h2>
 
@@ -80,10 +80,135 @@ I am passionate about photography and love capturing beautiful moments of nature
 This website is my personal photography portfolio where I share my favorite work.
 
 </p>
-
 </section>
 
+<section id="gallery">
+
+    <h2 class="section-title">𝑀𝓎 𝒢𝒶𝓁𝓁𝑒𝓇𝓎</h2>
+
+    <div class="gallery">
+
+        <div class="item">
+            <img src="images/photo1.jpg" alt="Photo 1">
+        </div>
+
+        <div class="item">
+            <img src="images/photo2.jpg" alt="Photo 2">
+        </div>
+
+        <div class="item">
+            <img src="images/photo3.jpg" alt="Photo 3">
+        </div>
+
+        <div class="item">
+            <img src="images/photo4.jpg" alt="Photo 4">
+        </div>
+
+        <div class="item">
+            <img src="images/photo5.jpg" alt="Photo 5">
+        </div>
+
+        <div class="item">
+            <img src="images/photo6.jpg" alt="Photo 6">
+        </div>
+
+    </div>
+
+</section>
+<!-- Lightbox -->
+
+<div id="lightbox" class="lightbox">
+
+    <span class="close">&times;</span>
+
+    <img id="lightbox-img" src="" alt="">
+
+</div>
+
+<section id="albums">
+
+    <h2 class="section-title">𝔸𝕝𝕓𝕦𝕞𝕤</h2>
+
+    <div class="albums">
+
+        <div class="album-card">
+            <h3>🌿 Nature</h3>
+            <p>𝐵𝑒𝒶𝓊𝓉𝒾𝒻𝓊𝓁 𝓁𝒶𝓃𝒹𝓈𝒸𝒶𝓅𝑒𝓈, 𝒻𝑜𝓇𝑒𝓈𝓉𝓈, 𝓇𝒾𝓋𝑒𝓇𝓈 𝒶𝓃𝒹 𝓂𝑜𝓊𝓃𝓉𝒶𝒾𝓃𝓈.</p>
+        </div>
+
+        <div class="album-card">
+            <h3>✈️ Travel</h3>
+            <p>𝒫𝒽𝑜𝓉𝑜𝓈 𝒻𝓇𝑜𝓂 𝒹𝒾𝒻𝒻𝑒𝓇𝑒𝓃𝓉 𝓅𝓁𝒶𝒸𝑒𝓈 𝒶𝓃𝒹 𝓊𝓃𝒻𝑜𝓇𝑔𝑒𝓉𝓉𝒶𝒷𝓁𝑒 𝒿𝑜𝓊𝓇𝓃𝑒𝓎𝓈.</p>
+        </div>
+
+        <div class="album-card">
+            <h3>🏙️ Street</h3>
+            <p>𝒟𝒶𝒾𝓁𝓎 𝓁𝒾𝒻𝑒, 𝒸𝒾𝓉𝓎 𝓈𝓉𝓇𝑒𝑒𝓉𝓈 𝒶𝓃𝒹 𝓊𝓇𝒷𝒶𝓃 𝓅𝒽𝑜𝓉𝑜𝑔𝓇𝒶𝓅𝒽𝓎.</p>
+        </div>
+
+        <div class="album-card">
+            <h3>👤 Portrait</h3>
+            <p>𝐶𝑟𝑒𝑎𝑡𝑖𝑣𝑒 𝑝𝑜𝑟𝑡𝑟𝑎𝑖𝑡𝑠 𝓌𝒾𝓉𝒽 𝓃𝒶𝓉𝓊𝓇𝒶𝓁 𝑒𝓂𝑜𝓉𝒾𝑜𝓃𝓈.</p>
+        </div>
+
+    </div>
+
+</section>
+<section id="contact">
+
+    <h2 class="section-title">𝕮𝖔𝖓𝖙𝖆𝖈𝖙 𝕸𝖊</h2>
+
+    <div class="contact-container">
+
+        <div class="contact-info">
+
+            <h3>𝐿𝑒𝓉'𝓈 𝒲𝑜𝓇𝓀 𝒯𝑜𝑔𝑒𝓉𝒽𝑒𝓇 📸</h3>
+
+            <p>
+                If you'd like to book a photoshoot, collaborate, or simply say hello,
+                feel free to contact me.
+            </p>
+
+            <p><strong>Email:</strong> 𝒻𝒶𝒽𝒾𝓂𝓃𝒶𝒽𝒾𝒹01@𝑒𝓂𝒶𝒾𝓁.𝒸𝑜𝓂</p>
+
+            <p><strong>Phone:</strong> +𝟖𝟖𝟎 𝟏𝟖𝟕𝟎𝟗𝟕𝟖𝟎𝟖𝟒✍</p>
+
+            <p><strong>Location:</strong> 𝓑𝓪𝓷𝓰𝓵𝓪𝓭𝓮𝓼𝓱</p>
+
+        </div>
+
+        <form class="contact-form">
+
+            <input type="text" placeholder="Your Name" required>
+
+            <input type="email" placeholder="Your Email" required>
+
+            <input type="text" placeholder="Subject" required>
+        
+            <textarea placeholder="Your Message" rows="6" required></textarea>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+
+    </div>
+
+</section>
 <script src="script.js"></script>
 
 </body>
 </html>
+<!-- Loading Screen -->
+<div id="loader">
+
+    <div class="loader-content">
+
+        <h1>Nahid Hasan</h1>
+
+        <p>Photography Portfolio</p>
+
+        <div class="loader-line"></div>
+
+    </div>
+
+</div>
